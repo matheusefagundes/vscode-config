@@ -1,0 +1,1 @@
+# VS Code config ad preferences

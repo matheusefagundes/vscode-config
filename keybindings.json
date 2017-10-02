@@ -1,0 +1,63 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	{
+		"key": "ctrl+d",
+		"command": "editor.action.deleteLines",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+k",
+		"command": "-editor.action.deleteLines",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+'",
+		"command": "workbench.action.terminal.toggleTerminal"
+	},
+	{
+		"key": "ctrl+shift+[BracketLeft]",
+		"command": "-workbench.action.terminal.toggleTerminal"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "workbench.action.files.saveAll"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "workbench.action.toggleZenMode"
+	},
+	{
+		"key": "ctrl+k z",
+		"command": "-workbench.action.toggleZenMode"
+	},
+	{
+		"key": "ctrl+shift+escape",
+		"command": "workbench.action.closeWindow"
+	},
+	{
+		"key": "ctrl+shift+w",
+		"command": "-workbench.action.closeWindow"
+	},
+	{
+		"key": "ctrl+shift+w",
+		"command": "workbench.action.closeAllEditors"
+	},
+	{
+		"key": "ctrl+k ctrl+w",
+		"command": "-workbench.action.closeAllEditors"
+	},
+	{
+		"key": "ctrl+shift+i",
+		"command": "editor.action.reindentlines"
+	},
+	{
+		"key": "ctrl+shift+.",
+		"command": "markdown.showPreview",
+		"when": "editorLangId == 'markdown'"
+	},
+	{
+		"key": "ctrl+shift+v",
+		"command": "-markdown.showPreview",
+		"when": "editorLangId == 'markdown'"
+	}
+]

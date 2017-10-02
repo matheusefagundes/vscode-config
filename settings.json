@@ -1,0 +1,37 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "php.validate.executablePath": "/opt/lampp/bin/php",
+    "editor.fontFamily": "Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 16,
+    "window.zoomLevel": 0,
+    "editor.tabSize": 6,
+    "editor.insertSpaces": false,
+    "terminal.integrated.cursorBlinking": true,
+    "files.associations": {
+        "*.md": "html",
+        "*.htm": [
+            "html",
+            "php"
+        ]
+    },
+    "editor.renderIndentGuides": true,
+    "editor.fontWeight": "300",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.js.map": true
+    },
+    "editor.renderWhitespace": "none",
+    "workbench.welcome.enabled": false,
+    "git.enabled": true,
+    "terminal.integrated.fontFamily": "Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "terminal.integrated.fontSize": 16,
+    "workbench.editor.showIcons": false,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": null
+}
