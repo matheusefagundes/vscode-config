@@ -1,0 +1,10 @@
+DSKWRK.vscode-generate-getter-setter
+EditorConfig.EditorConfig
+Mikael.Angular-BeastCode
+dawhite.mustache
+eg2.tslint
+moppitz.vscode-extension-auto-import
+rbbit.typescript-hero
+slevesque.vscode-multiclip
+stevejpurves.cucumber
+stringham.move-ts
