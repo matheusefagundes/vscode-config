@@ -8,7 +8,7 @@
     "editor.insertSpaces": false,
     "terminal.integrated.cursorBlinking": true,
     "files.associations": {
-        "*.md": "html",
+        "*.md": "markdown",
         "*.htm": [
             "html",
             "php"
@@ -27,11 +27,11 @@
         "**/*.js.map": true
     },
     "editor.renderWhitespace": "none",
-    "workbench.welcome.enabled": false,
     "git.enabled": true,
     "terminal.integrated.fontFamily": "Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
     "terminal.integrated.fontSize": 16,
     "workbench.editor.showIcons": false,
     "editor.minimap.enabled": false,
-    "workbench.iconTheme": null
+    "workbench.iconTheme": null,
+    "workbench.editor.showTabs": false
 }
