@@ -1,8 +1,8 @@
 // Place your settings in this file to overwrite the default settings
 {
     "php.validate.executablePath": "/opt/lampp/bin/php",
-    "editor.fontFamily": "Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 16,
+    "editor.fontFamily": "'Roboto Mono Regular', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 15,
     "window.zoomLevel": 0,
     "editor.tabSize": 6,
     "editor.insertSpaces": false,
@@ -28,10 +28,12 @@
     },
     "editor.renderWhitespace": "none",
     "git.enabled": true,
-    "terminal.integrated.fontFamily": "Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "'Roboto Mono Regular', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "terminal.integrated.fontSize": 14,
     "workbench.editor.showIcons": false,
     "editor.minimap.enabled": false,
     "workbench.iconTheme": null,
-    "workbench.editor.showTabs": false
+    "workbench.editor.showTabs": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "typescript.check.npmIsInstalled": false
 }
