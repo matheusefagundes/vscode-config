@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "php.validate.executablePath": "/opt/lampp/bin/php",
+    "php.validate.executablePath": "/usr/bin/php",
     "editor.fontFamily": "'Roboto Mono Regular', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
     "editor.fontSize": 15,
     "window.zoomLevel": 0,
@@ -34,6 +34,22 @@
     "editor.minimap.enabled": false,
     "workbench.iconTheme": null,
     "workbench.editor.showTabs": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "typescript.check.npmIsInstalled": false
+    "workbench.startupEditor": "none",
+    "typescript.check.npmIsInstalled": false,
+    "php.suggest.basic": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "gitlens.keymap": "alternate",
+    "zenMode.centerLayout": false,
+    "zenMode.restore": true
 }
