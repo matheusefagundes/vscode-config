@@ -1,10 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
     "php.validate.executablePath": "/opt/lampp/bin/php",
-    "editor.fontFamily": "'Roboto Mono Regular', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Roboto Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
     "editor.fontSize": 15,
     "window.zoomLevel": 0,
-    "editor.tabSize": 6,
+    "editor.tabSize": 2,
     "editor.insertSpaces": false,
     "terminal.integrated.cursorBlinking": true,
     "files.associations": {
@@ -12,10 +12,13 @@
         "*.htm": [
             "html",
             "php"
+        ],
+        "*.mustache": [
+            "html"
         ]
     },
     "editor.renderIndentGuides": true,
-    "editor.fontWeight": "300",
+    "editor.fontWeight": "400",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -28,12 +31,35 @@
     },
     "editor.renderWhitespace": "none",
     "git.enabled": true,
-    "terminal.integrated.fontFamily": "'Roboto Mono Regular', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "terminal.integrated.fontFamily": "'Roboto Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
     "terminal.integrated.fontSize": 14,
     "workbench.editor.showIcons": false,
     "editor.minimap.enabled": false,
     "workbench.iconTheme": null,
     "workbench.editor.showTabs": false,
     "workbench.startupEditor": "newUntitledFile",
-    "typescript.check.npmIsInstalled": false
+    "typescript.check.npmIsInstalled": false,
+    "[typescript]": {
+		
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.chktex.enabled": true,
+    "latex-workshop.latex.clean.enabled": true,
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    "[latex]": {
+        "editor.wordWrap": "on"
+    },
+    "latex-workshop.message.update.show": false,
+    "cSpell.language": "en,pt-BR",
+    "cSpell.userWords": [
+        "keyframes",
+        "matheusefagundes",
+        "middlewares",
+        "zazworka"
+    ],
+    "zenMode.centerLayout": false,
+    "zenMode.restore": true,
+    "swaggerViewer.previewInBrowser": true
 }
